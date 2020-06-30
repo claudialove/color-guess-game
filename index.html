@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- google fonts cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
     <!-- bootstrap cdn -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -15,11 +17,17 @@
 </head>
 
 <body>
-    <h1> The Great <span id="colorDisplay"> RGB </span> Color Game</h1>
+    <h1> The Great 
+        <br>
+        <span id="colorDisplay"> RGB </span> 
+        <br>
+        Color Game</h1>
     
     <div id="stripe">
         <button id="reset">New Colors</button>
-        <span id="message">message</span>
+        <span id="message"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
     </div>
     
     <div class="container">
