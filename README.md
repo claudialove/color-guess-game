@@ -2,7 +2,7 @@
 
 All developers know that the an RGB code has three arguments (red, green, blue). This game will randomly select number values for each of those arguments and then test your knowledge by displaying that selected color among other random colors. Can you guess which is the selected color??? 
 
-Play on hard mode (6 total colors to choose from) or easy mode (3 tital colors to choose from)
+Play on hard mode (6 total colors to choose from) or easy mode (3 total colors to choose from)
 
 ## Deployment
 
